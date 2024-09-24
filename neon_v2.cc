@@ -89,7 +89,7 @@ void computeMandelbrot(cv::Mat &mandelbrotImg)
 
                 vst1q_u32(&maskValues, mask);
 
-//The following account for divergence, if there is not any divergence, we can add the bit to the amount of iterations (for the creation of our image)
+//The following accounts for divergence, if there is not any divergence, we can add the bit to the amount of iterations (for the creation of our image)
                 iterations[0] += (maskValues & 0x1);
 //The result of the following operation is either 0 or 2. By right-shifting this result by 1 (>> 1), it's converted to either 0 or 1. Same logic for the rest of the mask values. 
                 iterations[1] += (maskValues & 0x2) >> 1;
