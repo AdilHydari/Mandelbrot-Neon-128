@@ -6,6 +6,6 @@ It is pretty much exactly what the the title describes, I wrote some extra comme
 ![](mandel.png)
 
 ## Compilation
-Felt too lazy to create a make file but the compilation is straight forward, just use g++ and link openmp use a -march flag and link OpenCV. If you don't understand what I'm saying you probably shouldn't be in here. As a side note, mandel.png must already be in the folder, as I didn't feel like writing the code for creating a file.
+Felt too lazy to create a make file but the compilation is straight forward, just use g++ and link openmp use a -march flag and link OpenCV. As a side note, mandel.png must already be in the folder, as I didn't feel like writing the code for creating a file.
 
 
